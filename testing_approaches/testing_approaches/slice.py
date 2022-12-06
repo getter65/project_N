@@ -1,4 +1,4 @@
-# файл slice.py
+
 def my_slice(coll, start=0, end=None):
     length = len(coll)
 

@@ -1,4 +1,4 @@
-# файл index_of.py
+
 def index_of(coll, value, from_index=0):
     length = len(coll)
 
