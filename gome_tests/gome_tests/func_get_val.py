@@ -1,12 +1,14 @@
-def get_val(collection=None, key=None, default=None) -> str:
+def get_val(collection, key, default=None) -> str:
     collection = dict(collection)
     
     if key in collection.keys():
-        return print(collection[key])
+        return collection[key]
     
     elif key not in collection.keys():
-        return print(default)
+        return default
     
-    
+
+get_val({"hello": "world"}, "hello")
+get_val({"hello": "world"}, "hello", "python")
 get_val({}, "hello","python")
     
